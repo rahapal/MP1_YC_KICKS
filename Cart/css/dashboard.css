@@ -1,0 +1,40 @@
+.dash {
+    width: 200px;
+    height: 100vh;
+    padding-top: 100px;
+    background-color: #3d4c5e;
+    text-align: center;
+}
+
+.dash ul {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.dash li {
+    color: #fff;
+    display: inline-block;
+    list-style: none;
+    margin: 25px;
+}
+
+.dash ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dash ul li a:hover {
+    text-shadow: 2px 2px #99c93f;
+}
+
+.dtext {
+    color: #99c93f;
+    text-shadow: 2px 2px #3d4c5e;
+    z-index: 2;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}

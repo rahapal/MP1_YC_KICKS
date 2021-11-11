@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    padding: 15px;
+    text-align: center;
+}
+
+.aform {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.ltable {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px #99c93f;
+    border-radius: 12px 12px 0 0;
+}
+
+td,
+th {
+    padding: 50px 70px;
+    text-align: center;
+}
+
+th {
+    background-color: #99c93f;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+tr {
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.signupdiv {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.signuplink {
+    color: #99c93f;
+}
+
+.signuplink a:hover {
+    color: #3d4c5e;
+}
+
+.asub {
+    background-color: #99c93f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
