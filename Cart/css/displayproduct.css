@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+.dflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 25px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pname {
+    text-transform: uppercase;
+}
+
+.dimg {
+    height: "50%";
+    width: "50%";
+    box-shadow: 10px 10px 10px 10px #ccc;
+}
+
+.pdetail {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.currency {
+    font-size: 18px;
+    font-stretch: expanded;
+}
+
+.pall {
+    box-shadow: 10px 10px 2px #ccc;
+    padding: 20px;
+    flex: 1 0 21%;
+}
+
+.psub {
+    background-color: #99c93f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
